@@ -1,0 +1,155 @@
+# ======================================================
+# PYTHON & FASTAPI PROJECT .GITIGNORE
+# ======================================================
+
+# --------------------------------------------
+# Python bytecode & build
+# --------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --------------------------------------------
+# Virtual environments
+# --------------------------------------------
+env/
+venv/
+ENV/
+.venv/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --------------------------------------------
+# IDE & editor files
+# --------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+*.tmp
+
+# --------------------------------------------
+# Logs & runtime
+# --------------------------------------------
+logs/
+*.log
+*.out
+*.err
+
+# --------------------------------------------
+# Cache / temporary data
+# --------------------------------------------
+.cache/
+*.temp
+*.tmp
+*.bak
+*.old
+*.orig
+*.dat
+__pycache__/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --------------------------------------------
+# TensorFlow / ML model artifacts
+# --------------------------------------------
+*.h5
+*.pkl
+*.sav
+*.tflite
+*.pb
+checkpoints/
+model/
+models/
+saved_models/
+__model__/
+
+# --------------------------------------------
+# Environment / configuration files
+# --------------------------------------------
+.env
+.env.*
+config.json
+secrets.json
+credentials.json
+
+# --------------------------------------------
+# OS / System files
+# --------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------
+# FastAPI / Uvicorn / SQLite
+# --------------------------------------------
+*.db
+*.sqlite3
+*.pid
+*.sock
+
+# --------------------------------------------
+# Frontend (future-proof if integrated)
+# --------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --------------------------------------------
+# Miscellaneous
+# --------------------------------------------
+*.orig
+*.rej
+*.un~
+*.swo
+*~
+*.swp
+*.bak
+
+# ======================================================
+# INTENTIONALLY INCLUDED FOLDERS
+# ======================================================
+
+# Git Flow scripts/config
+gitflow/
+
+# SSH configuration
+.ssh/
+!.ssh/
+!.ssh/**
+
+# ssh keys
+sam_git_ssh_keys
+sam_git_ssh_keys.pub
